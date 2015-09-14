@@ -54,42 +54,17 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/bin"
 export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin"
-export PATH="$PATH:$HOME/DevTools/arcanist/bin"
 export PATH="$PATH:/usr/local/go/bin"
-export PATH="$PATH:$HOME/Library/Android/sdk/platform-tools"
-export PATH="$PATH:$HOME/DevTools/apache-maven-3.3.3/bin"
-export PATH="$PATH:$HOME/.composer/vendor/bin"
-
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home
 
 export EDITOR="vim"
-export GOPATH="/Users/brady/GolangProjects"
+export GOPATH="$HOME/Golang"
 export PATH="$PATH:$GOPATH/bin"
 
 alias FBMW="cd $GOPATH/src/iwsinc.com/FutureBankServer"
 alias GH="cd $GOPATH/src/github.com/d1str0"
-alias PWN="cd $HOME/Pwnlandia/laravel/app"
-alias ERA="cd $GOPATH/src/pwnlandia.com/Era"
 
 alias cls="clear;ls"
 alias todo="sudo vim /etc/motd"
 
 cat /etc/motd
 
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
