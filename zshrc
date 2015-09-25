@@ -66,5 +66,5 @@ alias GH="cd $GOPATH/src/github.com/d1str0"
 alias cls="clear;ls"
 alias todo="sudo vim /etc/motd"
 
-cat /etc/motd
+cat $HOME/.motd
 
