@@ -60,8 +60,8 @@ export EDITOR="vim"
 export GOPATH="$HOME/Golang"
 export PATH="$PATH:$GOPATH/bin"
 
-alias FBMW="cd $GOPATH/src/iwsinc.com/FutureBankServer"
 alias GH="cd $GOPATH/src/github.com/d1str0"
+alias JAMS="cd $GOPATH/src/github.com/JAMSapp"
 
 alias cls="clear;ls"
 alias todo="sudo vim /etc/motd"
