@@ -52,7 +52,7 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 
-export PATH="/usr/local/bin"
+export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="$PATH:/usr/local/go/bin"
 
