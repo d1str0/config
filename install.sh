@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Fill out GoPath directories
-mkdir ~/Golang
-mkdir ~/Golang/src
-mkdir ~/Golang/pkg
-mkdir ~/Golang/bin
+mkdir ~/go
+mkdir ~/go/src
+mkdir ~/go/pkg
+mkdir ~/go/bin
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim

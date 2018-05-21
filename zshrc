@@ -57,11 +57,10 @@ export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin"
 export PATH="$PATH:/usr/local/go/bin"
 
 export EDITOR="vim"
-export GOPATH="$HOME/Golang"
+export GOPATH="$HOME/go"
 export PATH="$PATH:$GOPATH/bin"
 
 alias GH="cd $GOPATH/src/github.com/d1str0"
-alias JAMS="cd $GOPATH/src/github.com/JAMSapp"
 
 alias cls="clear;ls"
 alias todo="sudo vim /etc/motd"
